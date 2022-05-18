@@ -1,0 +1,103 @@
+
+.conteudo{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+    background-color: #092C52;
+    height: 286px;
+}
+
+.coluna-direita{
+    padding-left: 605px;
+}
+
+.coluna-esquerda{
+    padding-right: 555px;
+    margin-top: 49px;
+}
+
+.titulo{
+    color:white;
+}
+
+.lorem{
+    color: white;
+    font-size: 18px;
+}
+
+.imagem{
+    margin-top: 84px;
+}
+
+.titulo2{
+    color: #092C52;
+    font-size: 50px;
+    text-align: center;
+}
+
+.imagens{
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.linha{
+    color: #092C52;
+    margin-top: 30px;
+}
+
+.container{
+    margin-top: 90px;
+    
+}
+.card_img{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.small_img{
+    height: 100%;
+    cursor: pointer;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#modal_img{
+    width: 21vw;
+
+}
+.modal{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .7);
+    position:fixed ;
+    visibility: hidden;
+}
+
+.modal_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#bt_close{
+    color: #fff;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    padding: 5px 10px;
+    font-size: 25px;
+    border: solid 1px #fff;
+}
+
+.modal_active{
+    visibility: visible;
+}
